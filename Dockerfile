@@ -1,4 +1,4 @@
-FROM trustedshops/gitlabci-build-ruby
+FROM trustedshops/gitlabci-build-ruby:centos7
 
 WORKDIR /workspace
 COPY .ruby-version /workspace/.ruby-version
